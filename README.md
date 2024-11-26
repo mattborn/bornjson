@@ -17,3 +17,11 @@ ONE file per idea with ONE array containing ONE object.
 Will that work?
 
 Or perhaps ONE object per distinctive output?
+
+## Start at the end!
+
+They tend to ask:
+
+What is the object of the game?
+
+Perhaps the only thing we _shouldn’t_ objectify is women.

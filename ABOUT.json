@@ -2,6 +2,7 @@
   "title": "Born.json",
   "description": "Showing the work behind the schemas I’m sculpting.",
   "image": "",
-  "tags": ["Later"],
+  "repo": "mattborn/bornjson",
+  "tags": ["Now"],
   "urls": ["bornjson.com"]
 }

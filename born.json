@@ -6,6 +6,19 @@
     "but": { "but": "this" }
   },
   {
+    "title": "Project",
+    "project": "cardify",
+    "not": { "title": "Born.json", "description": "Showing the work behind the schemas I’m sculpting.", "image": "" },
+    "but": {
+      "title": "Born.json",
+      "description": "Showing the work behind the schemas I’m sculpting.",
+      "image": "data:image/gif;base64,R0lGODlhAQABAAAAACw=",
+      "repo": "mattborn/bornjson",
+      "tags": ["Snooze"],
+      "urls": ["bornjson.com"]
+    }
+  },
+  {
     "title": "Sprint",
     "project": "sprinter-nav",
     "not": { "startDate": "2024-01-01", "endDate": "2024-01-12", "workDays": 9 },
