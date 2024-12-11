@@ -25,3 +25,11 @@ They tend to ask:
 What is the object of the game?
 
 Perhaps the only thing we _shouldn’t_ objectify is women.
+
+## Sort command
+
+Oh how I love deterministic workflows.
+
+```
+jq 'sort_by(.project) | map(. + {not: (.not | to_entries | sort_by(.key) | from_entries)})' alpha.json > alpha.sorted.json
+```

@@ -2,181 +2,510 @@
   {
     "title": "API Key",
     "project": "apikeys",
-    "not": { "not": "this" },
-    "but": { "but": "this" }
+    "not": {
+      "created": "2024-03-21",
+      "key": "sk_test_123",
+      "name": "Stripe API Key"
+    },
+    "but": {}
   },
   {
-    "title": "Birthday",
-    "project": "birthdays",
-    "not": { "not": "this" },
-    "but": { "but": "this" }
+    "title": "Arrow",
+    "project": "arrowstate",
+    "not": {
+      "currentState": 0,
+      "direction": "forward",
+      "loop": false,
+      "states": []
+    },
+    "but": {}
   },
   {
-    "title": "Bullet",
-    "project": "bullets",
-    "not": { "not": "this" },
-    "but": { "but": "this" }
-  },
-  {
-    "title": "Tab",
-    "project": "closed",
-    "not": { "not": "this" },
-    "but": { "but": "this" }
-  },
-  {
-    "title": "Commitment",
-    "project": "commitzero",
-    "not": { "not": "this" },
-    "but": { "but": "this" }
-  },
-  {
-    "title": "Block",
-    "project": "copykit",
-    "not": { "not": "this" },
-    "but": { "but": "this" }
-  },
-  {
-    "title": "Task",
-    "project": "cosmo",
-    "not": { "not": "this" },
-    "but": { "but": "this" }
-  },
-  {
-    "title": "Slide",
-    "project": "deckwish",
-    "not": { "not": "this" },
-    "but": { "but": "this" }
-  },
-  {
-    "title": "Page",
-    "project": "donepage",
-    "not": { "not": "this" },
-    "but": { "but": "this" }
-  },
-  {
-    "title": "Frame",
-    "project": "figmai",
-    "not": { "not": "this" },
-    "but": { "but": "this" }
-  },
-  {
-    "title": "Link",
-    "project": "linktink",
-    "not": { "not": "this" },
-    "but": { "but": "this" }
-  },
-  {
-    "title": "Array",
-    "project": "markless",
-    "not": { "not": "this" },
-    "but": { "but": "this" }
-  },
-  {
-    "title": "Video",
-    "project": "mattborn",
-    "not": { "not": "this" },
-    "but": { "but": "this" }
-  },
-  {
-    "title": "Component",
-    "project": "minterface",
-    "not": { "not": "this" },
-    "but": { "but": "this" }
-  },
-  {
-    "title": "Account",
-    "project": "moneyjs",
-    "not": { "not": "this" },
-    "but": { "but": "this" }
-  },
-  {
-    "title": "Muggle",
-    "project": "muggles",
-    "not": { "not": "this" },
-    "but": { "but": "this" }
-  },
-  {
-    "title": "Component",
-    "project": "nothing",
-    "not": { "not": "this" },
-    "but": { "but": "this" }
-  },
-  {
-    "title": "Contact",
-    "project": "peoplejs",
-    "not": { "not": "this" },
-    "but": { "but": "this" }
-  },
-  {
-    "title": "Point",
-    "project": "pointline",
-    "not": { "not": "this" },
-    "but": { "but": "this" }
-  },
-  {
-    "title": "File",
-    "project": "rootfile",
-    "not": { "not": "this" },
-    "but": { "but": "this" }
-  },
-  {
-    "title": "Person",
-    "project": "rotango",
-    "not": { "not": "this" },
-    "but": { "but": "this" }
-  },
-  {
-    "title": "Component",
-    "project": "samesies",
-    "not": { "not": "this" },
-    "but": { "but": "this" }
-  },
-  {
-    "title": "Block",
-    "project": "talk-to-json",
-    "not": { "not": "this" },
-    "but": { "but": "this" }
-  },
-  {
-    "title": "Template?",
-    "project": "tell-and-show",
-    "not": { "not": "this" },
-    "but": { "but": "this" }
-  },
-  {
-    "title": "Invoice",
-    "project": "tell-invoice",
-    "not": { "not": "this" },
-    "but": { "but": "this" }
-  },
-  {
-    "title": "Tool",
-    "project": "tellstack",
-    "not": { "not": "this" },
-    "but": { "but": "this" }
-  },
-  {
-    "title": "Event",
-    "project": "uxjson",
-    "not": { "not": "this" },
-    "but": { "but": "this" }
-  },
-  {
-    "title": "Group",
-    "project": "wejoin",
-    "not": { "not": "this" },
-    "but": { "but": "this" }
-  },
-  {
-    "title": "Project",
-    "project": "with&for",
-    "not": { "not": "this" },
-    "but": { "but": "this" }
+    "title": "Run",
+    "project": "basic-run",
+    "not": {
+      "mode": "browser",
+      "sequence": [
+        "init",
+        "fetch",
+        "process"
+      ],
+      "status": "ready"
+    },
+    "but": {}
   },
   {
     "title": "Church",
     "project": "bigfoot",
-    "not": { "kind": "Place", "name": "Mount Olympus", "group": "Church" },
-    "but": { "but": "this" }
+    "not": {
+      "group": "Church",
+      "kind": "Place",
+      "name": "Mount Olympus"
+    },
+    "but": {}
+  },
+  {
+    "title": "Birthday",
+    "project": "birthdays",
+    "not": {
+      "date": "1990-01-01",
+      "name": "John Doe",
+      "type": "Birthday"
+    },
+    "but": {}
+  },
+  {
+    "title": "Bullet",
+    "project": "bullets",
+    "not": {
+      "priority": 1,
+      "status": "active",
+      "text": "Important note"
+    },
+    "but": {}
+  },
+  {
+    "title": "Burn",
+    "project": "burn",
+    "not": {
+      "billableHours": 40,
+      "nonBillableHours": 10,
+      "period": "2024-03",
+      "utilization": 0.8
+    },
+    "but": {}
+  },
+  {
+    "title": "Tab",
+    "project": "closed",
+    "not": {
+      "closedAt": "2024-03-21T10:00:00Z",
+      "title": "Example Tab",
+      "url": "https://example.com"
+    },
+    "but": {}
+  },
+  {
+    "title": "Commitment",
+    "project": "commitzero",
+    "not": {
+      "author": "dev@example.com",
+      "hash": "a1b2c3d",
+      "message": "Initial commit"
+    },
+    "but": {}
+  },
+  {
+    "title": "Block",
+    "project": "copykit",
+    "not": {
+      "content": "Sample text",
+      "format": "markdown",
+      "tags": [
+        "copy"
+      ]
+    },
+    "but": {}
+  },
+  {
+    "title": "Task",
+    "project": "cosmo",
+    "not": {
+      "due": "2024-04-01",
+      "status": "pending",
+      "title": "Complete project"
+    },
+    "but": {}
+  },
+  {
+    "title": "Darrin",
+    "project": "darrin",
+    "not": {
+      "course": "AI Basics",
+      "members": 50,
+      "progress": 0.75,
+      "status": "active"
+    },
+    "but": {}
+  },
+  {
+    "title": "Dashboard",
+    "project": "dashboard",
+    "not": {
+      "metrics": [
+        "spend",
+        "utilization"
+      ],
+      "period": "2024-Q1",
+      "status": "active"
+    },
+    "but": {}
+  },
+  {
+    "title": "Slide",
+    "project": "deckwish",
+    "not": {
+      "content": "Slide content",
+      "order": 1,
+      "title": "Introduction"
+    },
+    "but": {}
+  },
+  {
+    "title": "Dilemm",
+    "project": "dilemm",
+    "not": {
+      "deadline": "2024-04-01",
+      "decision": "Tech Stack Choice",
+      "options": [],
+      "votes": {}
+    },
+    "but": {}
+  },
+  {
+    "title": "Page",
+    "project": "donepage",
+    "not": {
+      "published": true,
+      "slug": "welcome",
+      "title": "Welcome"
+    },
+    "but": {}
+  },
+  {
+    "title": "Frame",
+    "project": "figmai",
+    "not": {
+      "id": "frame123",
+      "name": "Hero Section",
+      "type": "FRAME"
+    },
+    "but": {}
+  },
+  {
+    "title": "Gitfarm",
+    "project": "gitfarm",
+    "not": {
+      "branch": "main",
+      "lastCommit": "a1b2c3d",
+      "repo": "project-x",
+      "status": "clean"
+    },
+    "but": {}
+  },
+  {
+    "title": "Movie",
+    "project": "home-movies",
+    "not": {
+      "duration": 180,
+      "format": "mp4",
+      "recorded": "2024-03-21",
+      "title": "Family Vacation 2024"
+    },
+    "but": {}
+  },
+  {
+    "title": "Intested",
+    "project": "intested",
+    "not": {
+      "browser": "chrome",
+      "duration": 1.5,
+      "status": "passed",
+      "test": "login-flow"
+    },
+    "but": {}
+  },
+  {
+    "title": "Link",
+    "project": "linktink",
+    "not": {
+      "clicks": 0,
+      "title": "Example Link",
+      "url": "https://example.com"
+    },
+    "but": {}
+  },
+  {
+    "title": "Array",
+    "project": "markless",
+    "not": {
+      "format": "markdown",
+      "items": [],
+      "type": "list"
+    },
+    "but": {}
+  },
+  {
+    "title": "Markonce",
+    "project": "markonce",
+    "not": {
+      "lastSync": "2024-03-21T12:00:00Z",
+      "selector": ".header",
+      "styles": {},
+      "syncEnabled": true
+    },
+    "but": {}
+  },
+  {
+    "title": "Video",
+    "project": "mattborn",
+    "not": {
+      "duration": 120,
+      "title": "Demo",
+      "url": "https://example.com/video.mp4"
+    },
+    "but": {}
+  },
+  {
+    "title": "Component",
+    "project": "minterface",
+    "not": {
+      "name": "Button",
+      "props": {},
+      "type": "ui"
+    },
+    "but": {}
+  },
+  {
+    "title": "Account",
+    "project": "moneyjs",
+    "not": {
+      "balance": 1000,
+      "currency": "USD",
+      "type": "checking"
+    },
+    "but": {}
+  },
+  {
+    "title": "Muggle",
+    "project": "muggles",
+    "not": {
+      "name": "John Smith",
+      "role": "user",
+      "status": "active"
+    },
+    "but": {}
+  },
+  {
+    "title": "Component",
+    "project": "nothing",
+    "not": {
+      "children": [],
+      "id": "comp123",
+      "type": "container"
+    },
+    "but": {}
+  },
+  {
+    "title": "Contact",
+    "project": "peoplejs",
+    "not": {
+      "email": "jane@example.com",
+      "name": "Jane Doe",
+      "phone": "+1234567890"
+    },
+    "but": {}
+  },
+  {
+    "title": "Point",
+    "project": "pointline",
+    "not": {
+      "label": "Point A",
+      "x": 100,
+      "y": 200
+    },
+    "but": {}
+  },
+  {
+    "title": "File",
+    "project": "rootfile",
+    "not": {
+      "name": "document.pdf",
+      "size": 1024,
+      "type": "application/pdf"
+    },
+    "but": {}
+  },
+  {
+    "title": "Person",
+    "project": "rotango",
+    "not": {
+      "name": "Alice Brown",
+      "role": "developer",
+      "team": "frontend"
+    },
+    "but": {}
+  },
+  {
+    "title": "Component",
+    "project": "samesies",
+    "not": {
+      "name": "Card",
+      "reusable": true,
+      "variant": "primary"
+    },
+    "but": {}
+  },
+  {
+    "title": "Screener",
+    "project": "screener",
+    "not": {
+      "candidate": "John Smith",
+      "duration": 30,
+      "position": "Senior Developer",
+      "status": "scheduled"
+    },
+    "but": {}
+  },
+  {
+    "title": "Sport",
+    "project": "sportsball",
+    "not": {
+      "date": "2025-02-09",
+      "event": "Super Bowl",
+      "teams": [
+        "TBD",
+        "TBD"
+      ],
+      "venue": "New Orleans"
+    },
+    "but": {}
+  },
+  {
+    "title": "Superwork",
+    "project": "superwork",
+    "not": {
+      "duration": 45,
+      "episode": 1,
+      "series": "AI Productivity",
+      "topic": "Getting Started"
+    },
+    "but": {}
+  },
+  {
+    "title": "Block",
+    "project": "talk-to-json",
+    "not": {
+      "text": "Hello world",
+      "timestamp": "2024-03-21T12:00:00Z",
+      "type": "message"
+    },
+    "but": {}
+  },
+  {
+    "title": "Template?",
+    "project": "tell-and-show",
+    "not": {
+      "elements": [],
+      "name": "Basic Layout",
+      "version": 1
+    },
+    "but": {}
+  },
+  {
+    "title": "Invoice",
+    "project": "tell-invoice",
+    "not": {
+      "amount": 500,
+      "number": "INV-001",
+      "status": "pending"
+    },
+    "but": {}
+  },
+  {
+    "title": "Tool",
+    "project": "tellstack",
+    "not": {
+      "command": "run",
+      "name": "CLI Tool",
+      "version": "1.0.0"
+    },
+    "but": {}
+  },
+  {
+    "title": "Thirteen",
+    "project": "thirteen",
+    "not": {
+      "components": [],
+      "order": 1,
+      "section": "Hero",
+      "status": "draft"
+    },
+    "but": {}
+  },
+  {
+    "title": "Thumby",
+    "project": "thumby",
+    "not": {
+      "project": "Example Project",
+      "size": {
+        "width": 1200,
+        "height": 630
+      },
+      "style": "minimal"
+    },
+    "but": {}
+  },
+  {
+    "title": "Typesets",
+    "project": "typesets",
+    "not": {
+      "name": "Modern Sans",
+      "primary": "Inter",
+      "secondary": "Roboto",
+      "settings": {}
+    },
+    "but": {}
+  },
+  {
+    "title": "Unspam",
+    "project": "unspam",
+    "not": {
+      "email": "spam@example.com",
+      "status": "unsubscribed",
+      "timestamp": "2024-03-21T12:00:00Z"
+    },
+    "but": {}
+  },
+  {
+    "title": "Event",
+    "project": "uxjson",
+    "not": {
+      "element": "button",
+      "name": "Click",
+      "timestamp": "2024-03-21T12:00:00Z"
+    },
+    "but": {}
+  },
+  {
+    "title": "Group",
+    "project": "wejoin",
+    "not": {
+      "members": 5,
+      "name": "Team Alpha",
+      "type": "project"
+    },
+    "but": {}
+  },
+  {
+    "title": "Project",
+    "project": "with&for",
+    "not": {
+      "name": "New Initiative",
+      "status": "active",
+      "team": "core"
+    },
+    "but": {}
+  },
+  {
+    "title": "Worksynth",
+    "project": "worksynth",
+    "not": {
+      "lastSync": "2024-03-21T12:00:00Z",
+      "priority": "high",
+      "source": "chat",
+      "tasks": []
+    },
+    "but": {}
   }
 ]
