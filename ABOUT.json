@@ -1,8 +1,9 @@
 {
-  "title": "Born.json",
+  "deps": ["calcutai"],
   "description": "Showing the work behind the schemas I’m sculpting.",
   "image": "",
   "repo": "mattborn/bornjson",
-  "tags": ["Now"],
+  "tags": ["HumanLayer", "Today"],
+  "title": "Born.json 🟡",
   "urls": ["bornjson.com"]
 }

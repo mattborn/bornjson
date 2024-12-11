@@ -172,5 +172,11 @@
     "project": "with&for",
     "not": { "not": "this" },
     "but": { "but": "this" }
+  },
+  {
+    "title": "Church",
+    "project": "bigfoot",
+    "not": { "kind": "Place", "name": "Mount Olympus", "group": "Church" },
+    "but": { "but": "this" }
   }
 ]
