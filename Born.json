@@ -2,26 +2,54 @@
   {
     "title": "Example",
     "project": "bornjson",
-    "not": { "not": "this" },
-    "but": { "but": "this" }
+    "not": {
+      "not": "this"
+    },
+    "but": {
+      "but": "this"
+    }
+  },
+  {
+    "title": "Block",
+    "project": "calcutai",
+    "not": {
+      "learned": "Calcutai is the most mission critical project!",
+      "project": "Hacklist",
+      "start": "9:30",
+      "task": "Organize projects"
+    },
+    "but": {
+      "project": "Hacklist",
+      "result": "Learned Calcutai is the most mission critical project!",
+      "start": "9:30",
+      "task": "Organize projects"
+    }
   },
   {
     "title": "Project",
     "project": "cardify",
-    "not": { "title": "Born.json", "description": "Showing the work behind the schemas I’m sculpting.", "image": "" },
+    "not": {
+      "description": "Showing the work behind the schemas I’m sculpting.",
+      "image": "",
+      "title": "Born.json"
+    },
     "but": {
-      "title": "Born.json",
       "description": "Showing the work behind the schemas I’m sculpting.",
       "image": "data:image/gif;base64,R0lGODlhAQABAAAAACw=",
       "repo": "mattborn/bornjson",
       "tags": ["Snooze"],
+      "title": "Born.json",
       "urls": ["bornjson.com"]
     }
   },
   {
     "title": "Sprint",
     "project": "sprinter-nav",
-    "not": { "startDate": "2024-01-01", "endDate": "2024-01-12", "workDays": 9 },
+    "not": {
+      "endDate": "2024-01-12",
+      "startDate": "2024-01-01",
+      "workDays": 9
+    },
     "but": {
       "days": [
         "2024-01-02",

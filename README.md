@@ -31,5 +31,5 @@ Perhaps the only thing we _shouldn’t_ objectify is women.
 Oh how I love deterministic workflows.
 
 ```
-jq 'sort_by(.project) | map(. + {not: (.not | to_entries | sort_by(.key) | from_entries)})' alpha.json > alpha.sorted.json
+jq 'walk(if type == "object" and . != {} then to_entries | sort_by(.key) | from_entries else . end)' Born.json | jq '[.[] | to_entries | sort_by(.key) | reverse | from_entries] | sort_by(.project)' > Born.sorted.json
 ```
